@@ -95,7 +95,7 @@
 }
 .modal-form {
 }
-.modal-form-field {
+.modal-form-field:not(:last-child) {
   margin-bottom: 8px;
 }
 .modal-form-label {
@@ -237,6 +237,7 @@ justify-content: center;
   border: none;
 
   margin: 24px auto 0;
+  letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
 
