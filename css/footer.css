@@ -132,4 +132,6 @@
 .button-icon {
   width: 24px;
   height: 20px;
+
+  letter-spacing: 0.04em;
 }
